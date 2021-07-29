@@ -4,7 +4,9 @@
 .col-4 {width: 60%;float: left;}
 .col-2 {width: 5%;float: left;}
 .col-8 {width: 65%;float: left;}
-
+body{
+	font-family: 'Lato', sans-serif;
+}
 .container{
     width: 1170px;
     margin: auto;
@@ -67,9 +69,9 @@
 	font-size: 25px;
 	text-decoration: none;
 	color: white;
-	background: rgb(104, 22, 236);
+	background: #507BD6;
     padding: 20px 20px;
-    border-radius: 15px;
+    border-radius: 5px;
 }
 
 
@@ -80,23 +82,23 @@
 
 
 .cta-area {
-	background: #7070faab;
+	background: #507BD6;
 	padding: 40px;
 }
 .cta-text{}
 .cta-text p {
-	color: #0e0a0a;
+	color: #f8f6f6;
 	font-size: 20px;
 	font-weight: 500;
 	margin-top: -17px;
 }
 .cta-text span{
-	color: rgb(47, 47, 230);
+	color: rgb(247, 247, 255);
 	font-size: 30px;
 	font-weight: 600;
 }
 .cta-batton {
-	background: #8b0a0a;
+	background: #faf2f2;
 	display: inline-block;
 	padding: 10px 35px;
 	font-size: 22px;
@@ -106,7 +108,7 @@
 }
 .cta-batton a {
 	text-decoration: none;
-	color: white;
+	color: rgb(20, 1, 1);
 }
 
 
