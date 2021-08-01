@@ -207,10 +207,7 @@ body{
 }
 .single-service {
 	display: flex;
-	background: white;
-	padding: 31px;
-	border-radius: 5px;
-	margin-bottom: 22px;
+	margin-bottom: 60px;
 }
 .service-icon i {
 	height: 60px;
