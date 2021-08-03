@@ -1,6 +1,5 @@
 *{padding: 0;margin: 0;box-sizing: border-box;}
 .fix{overflow: hidden;}
-/*header part*/
 .col-6 {width: 50%;float: left;padding: 0 15px;}
 .col-4 {width: 33.33%;float: left; padding: 0 15px;}
 .col-12 {width: 100%;float: left; padding: 0 15px;}
@@ -395,9 +394,113 @@ body{
 
 
 
-/*   choose-area end       */
+/*   choose-area End       */
 
 
+/*     working-area  start */
+
+
+.working-area{
+	background: #F0F0F0;
+}
+.working-text{
+	position: relative;
+}
+.working-text > h4::before {
+	position: absolute;
+	content: "";
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 50px;
+	height: 2px;
+	background: #ADADAD;
+	margin-bottom: 147px;
+	margin-left: 250px;
+}
+.working-text h4 {
+	color: #333333;
+	margin-left: 179px;
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: 900;
+	margin-bottom: 36px;
+	margin-top: 200px;
+}
+.working-text p {
+	color: #555555;
+	font-size: 20px;
+	font-weight: 700;
+	text-align: center;
+	margin-bottom: 57px;
+}
+.working-text a {
+	text-decoration: none;
+	padding: 23px 52px;
+	background: #4272D7;
+	color: white;
+	margin-left: 200px;
+}
+
+.working-img{}
+.working-img img {
+	margin-left: 190px;
+}
+
+
+/*     working-area  End */
+
+
+
+/*    latest-area start     */
+
+
+
+/*    latest-area End     */
+
+
+
+/*    brand-area start    */
+
+.brand-area{
+	background: #F0F0F0;
+}
+
+
+/*    brand-area End    */
+
+
+
+/*    footer-area start    */
+
+
+.footer-area{
+	background: #171A21;
+}
+
+
+
+/*    footer-area End    */
+
+
+
+
+
+
+/*    footer-copy-info  start  */
+
+
+.footer-copy-info{
+	background: #171A21;
+	padding: 50px 50px;
+	margin-top: 0.1px;
+	text-align: center;
+	color: white;
+}
+
+
+
+/*    footer-copy-info End    */
 
 
 
